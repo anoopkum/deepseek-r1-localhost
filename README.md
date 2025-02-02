@@ -48,29 +48,40 @@ AZURE_AI_KEY=<your_api_key>
 
 On macOS/Linux:
 
-$python3 -m venv venv
-$source venv/bin/activate
+```bash
+python3 -m venv venv
+source ./venv/bin/activate
+```
+
 
 On Windows:
 
-$python -m venv venv
-$venv\Scripts\activate
+```bash
+python -m venv venv
+.\venv\Scripts\activate
+```
 
 5. Install Dependencies
 
-$pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
 6. Start Chatbot Interaction
 
 Run the following command to interact with DeepSeek R1 via the command line:
 
-$python3 chat.py
+```bash
+python3 chat.py
+```
 
 7. Deploy the Web Application
 
 To launch the web-based chatbot locally, run:
 
-$python3 app.py
+```bash
+python3 app.py
+```
 
 Open your browser and visit: http://127.0.0.1:5000
 
