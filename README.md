@@ -18,8 +18,10 @@ Step-by-Step Configuration
 
 1. Clone the Repository
 
- $ git clone https://github.com/anoopkum/deepseek-r1-localhost.git
- $ cd deepseek-r1-localhost
+```bash
+ git clone https://github.com/anoopkum/deepseek-r1-localhost.git
+ cd deepseek-r1-localhost
+```
 
 2. Configure Azure AI Foundry
 
