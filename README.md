@@ -39,7 +39,7 @@ Deploy the model directly from the portal.
 
 Once the model is deployed, obtain the Endpoint URL and API Key from Azure AI Foundry.
 
-Create a .env file in the project root and add the following:
+Update  .env file in the project root and add the following:
 
 AZURE_AI_ENDPOINT=<your_endpoint_url>
 AZURE_AI_KEY=<your_api_key>
